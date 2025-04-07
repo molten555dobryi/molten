@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Eco Travel | Home</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,700,100,400' rel='stylesheet' type='text/css'>
+<!-- js -->
+<script src="js/jquery.min.js"></script>
+<!-- //js -->
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- //for-mobile-apps -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+<!-- banner -->
+	<div class="banner-with-text">
+		<div class="container">
+<!-- header -->	
+		<div class="header">
+			<div class="header-top">
+				<input type="text" placeholder="Search" required=" ">
+			</div>
+			<div class="clearfix"> </div>
+			<div class="header-bottom">
+				<div class="header-bottom-left">
+					<a href="index.html">Горы<span>России</span></a>
+				</div>
+				<div class="header-bottom-right">
+					<span class="menu">MENU</span>
+					<ul class="nav1">
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="mountain1.html">Мижирги</a></li>
+						<li><a href="mountain2.html">Казбек</a></li>
+						<li><a href="mountain3.html">Шхара</a></li>
+						<li><a href="mountain4.html">Джангитау</a></li>
+
+					
+					</ul>
+					<!-- script for menu -->
+						<script> 
+							$( "span.menu" ).click(function() {
+							$( "ul.nav1" ).slideToggle( 300, function() {
+							 // Animation complete.
+							});
+							});
+						</script>
+					<!-- //script for menu -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>	
+<!-- //header -->
+<!-- Slider-starts-Here -->
+				<script src="js/responsiveslides.min.js"></script>
+				 <script>
+				    // You can also use "$(window).load(function() {"
+				    $(function () {
+				      // Slideshow 4
+				      $("#slider3").responsiveSlides({
+				        auto: true,
+				        pager: true,
+				        nav: false,
+				        speed: 500,
+				        namespace: "callbacks",
+				        before: function () {
+				          $('.events').append("<li>before event fired.</li>");
+				        },
+				        after: function () {
+				          $('.events').append("<li>after event fired.</li>");
+				        }
+				      });
+				
+				    });
+				  </script>
+			<!--//End-slider-script -->
+			<div  id="top" class="callbacks_container wow fadeInUp" data-wow-delay="0.5s">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="banner">	
+							<div class="jumbotron banner-info">
+								<h1>Топ 4 горы России</h1>
+								<p>Горы России не только красивы, но и полны исторического и культурного наследия. Многие народы, живущие в горных регионах, сохранили свои традиции и обычаи, что делает путешествие в эти места еще более увлекательным. Горы России — это не просто географические объекты, это настоящие сокровища, которые вдохновляют и восхищают людей.</p>
+								<p><a class="btn btn-primary btn-lg" href="single.html" role="button">READ MORE</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="banner1">	
+							<div class="jumbotron banner-info">
+								<h1>Самые высшие горы России</h1>
+								<p>Горы России — это величественные и разнообразные природные образования, которые занимают значительную часть территории страны. Они представляют собой не только живописные пейзажи, но и уникальные экосистемы, богатые флорой и фауной.</p>
+								<p><a class="btn btn-primary btn-lg" href="single.html" role="button">READ MORE</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="banner2">	
+							<div class="jumbotron banner-info">
+								
+								<p><a class="btn btn-primary btn-lg" href="single.html" role="button"></a></p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+	</div>
+	</div>
+<!-- //banner -->
+<!-- banner-bottom -->
+	<div class="banner-bdy">
+		<div class="container">
+	<div class="banner-bottom" id="events">
+			<div class="banner-bottom-grids">
+				<div class="col-md-4 banner-bottom-grid">
+					<img src="images/52.jpg" alt=" "/>
+					<div class="more">
+						<a href="file:///C:/Users/user/Desktop/Eco%20Travel/mountain2.html">Далее</a>
+					</div>
+				</div>
+				<div class="col-md-4 banner-bottom-grid">
+					<img src="images/61.jpg" alt=" "/>
+					<div class="more">
+						<a href="file:///C:/Users/user/Desktop/Eco%20Travel/mountain3.html">Далее</a>
+					</div>
+				</div>
+				<div class="col-md-4 banner-bottom-grid">
+					<img src="images/67.jpg" alt=" "/>
+					<div class="more">
+						<a href="file:///C:/Users/user/Desktop/Eco%20Travel/mountain4.html">Далее</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="features">
+				<div class="col-md-12 features-left">
+					<h3>Топ 4 горы России</h3>
+					<div class="features-left-grids">
+						<div class="col-md-4 features-left-grid">
+							<a href="single.html"><img src="images/3.jpg" alt=" " /></a>
+						</div>
+						<div class="col-md-8 jumbotron features-left-grid1">
+							<h4><a href="single.html"></a>Мижирги</h4>
+							<p>Массив расположен в районе Безенгийского ущелья (Кабардино-Балкария) и имеет две вершины: западную – 5025 м и восточную – 4927 м. Изначально может показаться, что название имеет азиатское происхождение, но это не так. Имя ему дали исследователи из Тверской области. По одной из версий, гора названа в честь балкарского пастуха Мажира Аттаева из селения Безенги, совершившего восхождение на вершину горы в середине XIX века.</p>
+							<p><a class="btn read btn-primary btn-lg" href="file:///C:/Users/user/Desktop/Eco%20Travel/mountain1.html" role="button">Далее</a></p>
+						</div>
+						
+						<div class="clearfix"> </div>
+					</div>
+					<div class="features-left-grids">
+						<div class="col-md-4 features-left-grid">
+							<a href="single.html"><img src="images/52.jpg" alt=" " /></a>
+						</div>
+						<div class="col-md-8 jumbotron features-left-grid1">
+							<h4><a href="single.html">Казбек</a></h4>
+							<p>Высота – 5033 м. Это потухший стратовулкан, самый восточный пятитысячник Кавказа. Последнее извержение произошло в 650 году до н.э. Об этом давно потухшем вулкане ходят тысячи легенд и мифов. На его территории можно обнаружить участки с застывшей лавой и буквально прикоснуться к древней мощи.
+								Казбек обрёл своё нынешнее название только в XIX веке. Изучая отчёты послов России в Грузии XVI–XVIII веков, можно найти упоминание Казбека как Шат-горы.</p>
+							<p><a class="btn read btn-primary btn-lg" href="file:///C:/Users/user/Desktop/Eco%20Travel/mountain2.html" role="button">Далее</a></p>
+						</div>
+						
+						<div class="clearfix"> </div>
+					</div>
+					<div class="features-left-grids">
+						<div class="col-md-4 features-left-grid">
+							<a href="single.html"><img src="images/61.jpg" alt=" " /></a>
+						</div>
+						<div class="col-md-8 jumbotron features-left-grid1">
+							<h4><a href="single.html">Шхара</a></h4>
+							<p>Её склоны украшены ледниками, гора также сложена из гранита и кристаллических сланцев. У её южных склонов находится внесённое в список Всемирного наследия ЮНЕСКО село Ушгули – там проживают люди с крепким здоровьем и высокой продолжительностью жизни. Расположена в Сванетии с юга и района Безенги в Кабардино-Балкарии с севера, на границе России и Грузии, примерно в 90 км к северу от города Кутаиси. Является частью уникального 13-километрового горного массива, известного под названием Безенгийская стена.</p>
+							<p><a class="btn read btn-primary btn-lg" href="file:///C:/Users/user/Desktop/Eco%20Travel/mountain3.html" role="button">Далее</a></p>
+						</div>
+						
+						<div class="clearfix"> </div>
+					</div>
+					<div class="features-left-grids">
+						<div class="col-md-4 features-left-grid">
+							<a href="single.html"><img src="images/67.jpg" alt=" " /></a>
+						</div>
+						<div class="col-md-8 jumbotron features-left-grid1">
+							<h4><a href="single.html">Джангитау</a></h4>
+							<p>Название вершины переводится с карачаево-балкарского как «новая гора». Многие желают покорить эту гору, но осмеливается далеко не каждый – только профессиональные альпинисты совершают восхождение на Джангитау по маршрутам 4Б-5А-категории сложности.Джангитау находится в центре 13-километрового горного массива, известного под названием Безенгийская стена и популярна в альпинизме.
+
+							</p>
+							<p><a class="btn read btn-primary btn-lg" href="file:///C:/Users/user/Desktop/Eco%20Travel/mountain4.html" role="button">Далее</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				
+			<script type="text/javascript">
+							$(window).load(function() {
+								$("#flexiselDemo1").flexisel({
+									visibleItems: 4,
+									animationSpeed: 1000,
+									autoPlay: true,
+									autoPlaySpeed: 3000,    		
+									pauseOnHover: true,
+									enableResponsiveBreakpoints: true,
+									responsiveBreakpoints: { 
+										portrait: { 
+											changePoint:480,
+											visibleItems: 2
+										}, 
+										landscape: { 
+											changePoint:640,
+											visibleItems:3
+										},
+										tablet: { 
+											changePoint:768,
+											visibleItems: 3
+										}
+									}
+								});
+								
+							});
+					</script>
+					<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+	</div>
+	</div>
+	</div>
+<!-- //slider -->
+<!-- footer -->
+	
+		<div class="footer">
+			<p>Сайт создан в 2025 году Ратмиром<3 <a href="http://w3layouts.com/"> W3layouts</a></p>
+		</div>
+	</div>
+<!-- //footer -->	
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
